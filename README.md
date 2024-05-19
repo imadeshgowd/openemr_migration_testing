@@ -14,7 +14,7 @@ This repository contains automated test scripts for the migration of the OpenEMR
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/imadeshgowd/openemr_migration_testing.git
+    git clone https://github.com/yourusername/openemr_migration_testing.git
     cd openemr_migration_testing
     ```
 
@@ -50,3 +50,16 @@ This repository contains automated test scripts for the migration of the OpenEMR
 To run all tests and generate a report:
 ```bash
 python run_tests.py
+```
+
+## Test Cases
+
+- `test_login.py`: Tests user login functionality.
+- `test_patient_registration.py`: Tests patient registration functionality.
+- `test_appointment_scheduling.py`: Tests appointment scheduling functionality.
+- `test_billing.py`: Tests billing functionality.
+- `test_data_migration.py`: Validates data migration.
+
+## Reports
+
+Test reports are generated in the `reports/` directory.
